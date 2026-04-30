@@ -1,0 +1,28 @@
+ Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+.npm
+
+# Docker
+.dockerignore
+
+# IDE  
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Ghost dirs from brace expansion bug
+backend/{app,models,services,api,config}/
+frontend/src/{components,pages,hooks,lib}/
+{backend,frontend,data,scripts,docker}/
